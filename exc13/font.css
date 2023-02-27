@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+    
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    height: 100%;
+}
+
+body {
+    height: 10%;
+    font-family: 'Roboto Condensed', sans;
+    color: antiquewhite;
+    background-image: linear-gradient(to bottom, rgb(35, 32, 49), rgb(56, 48, 94));
+}
+h1 {
+    height: 50%;
+    background-color: rgb(49, 49, 137);
+    text-align: center;
+    padding: auto;
+    color: rgb(198, 155, 74);
+    font-family: 'Bebas Neue', cursive;
+}
+h2 {
+    height: 20%;
+    color: blue;
+}
+p {
+    background-color: rgb(95, 74, 198);
+}
