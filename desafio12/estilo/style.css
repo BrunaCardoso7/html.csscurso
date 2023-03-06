@@ -22,10 +22,12 @@ header{
     text-align: center;
 }
 header >h1{
+    color: rgb(206, 2, 2);
     font-size: 8vw;
     font-family: var(--font2);
     padding-top: 30px;
     font-variant: small-caps;
+    text-shadow: 1px 1px 3px rgb(244, 121, 121);
 }
 header >p{
     padding-bottom: 30px;
@@ -45,10 +47,14 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    text-shadow: 2px 2px 13px white;
+} 
+section p{
+    padding-bottom: 30px;
 }
 main >.imagem p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.504);
+    background-color: rgba(0, 0, 0, 0.831);
     padding: 30px;
     border-radius: 5px;
 }
@@ -60,6 +66,19 @@ main >.normal{
 main >.imagem{
     color: white;
     background-color: cadetblue;
+    box-shadow: inset 3px 3px 13px black;
+}
+section#img1{
+    background-image: url(../image/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img2{
+    background-image: url(../image/imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 footer{
     background-color: black;
