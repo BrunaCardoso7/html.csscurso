@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <form action="index.php" method="post" autocomplete="on"></form>
+        <h1>teste de formulários</h1>
+        <p>
+            <label for="est">Estado</label>
+            <select name="est" id="est">
+                <optgroup label="nordeste">
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piuaí</option>
+                </optgroup>
+                <optgroup label="suldeste">
+                    <option value="MG">Minas gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="prof">profissões</label>
+            <input type="text" name="profissão" id="profissão" list="prof">
+            <datalist  id="prof" >               
+                    <option value="ADM">administrador</option>
+                    <option value="DEV">Desevolvedor</option>
+                    <option value="cont">contador</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="mens">mande sua mensagem</label><br>
+            <textarea name="mens" id="mens" cols="30" rows="10" placeholder="digite uma mensagem"></textarea>
+        </p>
+        <p>
+            <input type="reset" value="limpar">
+            <input type="submit" value="cadrastro">
+        </p>
+
+</body>
+</html>
