@@ -36,14 +36,14 @@ img{
     display: block;
 }
 #tablet{
-    display: block;
+    display: none;
 }
 #print{
-    display: block;
+    display: none;
 }
 #computador{
-    display: block;
+    display: none;
 }
 #tv{
-    display: block;
+    display: none;
 }
