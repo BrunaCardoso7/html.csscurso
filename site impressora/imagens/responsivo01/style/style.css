@@ -19,7 +19,7 @@ nav>ul{
     list-style-type: none;
 }
 nav a{
-    display:block;
+    display: block;
     padding: 10px;
     border: 1px solid black;
     text-align: center;
@@ -48,5 +48,5 @@ article > p{
     display: block;
     text-align: center;
     cursor: pointer;
-    
+
 }
